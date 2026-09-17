@@ -1,0 +1,17 @@
+{
+  "name": "tarjeta-presentacion",
+  "private": true,
+  "scripts": {
+    "test:html": "html-validate index.html",
+    "test:semantic": "node tests/check-html.mjs",
+    "test:a11y": "pa11y-ci http://127.0.0.1:4173/index.html",
+    "test:links": "node tests/check-links.mjs",
+    "test:responsive": "playwright test tests/responsive.spec.mjs",
+    "test": "npm run test:html && npm run test:semantic && npm run test:links && npm run test:responsive"
+  },
+  "devDependencies": {
+    "html-validate": "^11.16.0",
+    "pa11y-ci": "^4.1.1",
+    "playwright": "^1.63.0"
+  }
+}

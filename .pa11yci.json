@@ -1,0 +1,6 @@
+{
+  "standard": "WCAG2AA",
+  "runners": ["htmlcs"],
+  "timeout": 30000,
+  "wait": 500
+}

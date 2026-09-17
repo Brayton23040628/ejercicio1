@@ -1,0 +1,18 @@
+{
+  "$schema": "C:/Users/ASUS VIVOBOOK/go/pkg/mod/github.com/opencode-ai/opencode@v0.0.55/opencode-schema.json",
+  "agents": {
+    "coder": {
+      "model": "copilot.gpt-4o",
+      "maxTokens": 5000
+    },
+    "task": {
+      "model": "copilot.gpt-4o",
+      "maxTokens": 5000
+    },
+    "title": {
+      "model": "copilot.gpt-4o",
+      "maxTokens": 80
+    }
+  },
+  "autoCompact": true
+}
