@@ -2,5 +2,8 @@
   "standard": "WCAG2AA",
   "runners": ["htmlcs"],
   "timeout": 30000,
-  "wait": 500
+  "wait": 500,
+  "chromeLaunchConfig": {
+    "args": ["--no-sandbox", "--disable-setuid-sandbox"]
+  }
 }
